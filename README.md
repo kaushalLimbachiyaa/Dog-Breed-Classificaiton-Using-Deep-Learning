@@ -151,6 +151,14 @@ __NOTE:__ While some code has already been implemented to get you started, you w
 
 When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
 - The `dog_app.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
+- The `extract_bottleneck_features.py` contains functions to process the pretrained models.
+- The `haarcascades` folder contains the filters we will use in the human face detector.
+- The `images` folder contains images to test the model. 
+- The `Test Algorithm` folder contains the images to test the algorithm on.
+- The `requirements` contains the necessary dependencies
+- The `saved_models` folder contains trained models with best accuracy.
+
+
 
 ## Results and Screenshots <a name="results"></a>
 
