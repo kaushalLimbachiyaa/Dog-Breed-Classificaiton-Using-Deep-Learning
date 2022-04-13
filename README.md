@@ -12,6 +12,8 @@
 [image1]: ./images/result3dog.png "Sample Output"
 [image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
+[image4]: ./images/result1.png "results1"
+[image5]: ./images/result britt.png "results2"
 
 
 ## Project Overview <a name="projectOverview"></a>
@@ -50,6 +52,9 @@ ipykernel==4.6.1
 
 tensorflow==1.0.0     
 
+### Metrics <a name="metrics"></a>
+
+Because we’re dealing with a multi-classification problem and the data is slightly skewed, the categorical cross-entropy cost function and the accuracy are used as assessment metric. However, the labels must first be in a category format. The target files are a collection of encoded dog labels that are associated with an image in this format. This multi-class log loss penalises the classifier if the projected probability results in a label that differs from the actual label, resulting in higher accuracy. The loss of a perfect classifier is zero, and the accuracy is 100 percent.
 
 ## Project Instructions
 
@@ -148,3 +153,8 @@ When you are ready to submit your project, collect the following files and compr
 - The `dog_app.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
 
 ## Results and Screenshots <a name="results"></a>
+
+![results1][image4]
+![results2][image5]
+
+
