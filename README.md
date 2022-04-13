@@ -1,10 +1,11 @@
+### Table of Contents
 
 1. [Project Overview](#projectOverview)
 2. [Libraries](#library)
 3. [Metrics](#metrics)
 4. [Instructions] (#instructions)
 5. [File Descriptions](#files)
-6. [Results](#results)
+6. [Results and Screenshots](#results)
 
 [//]: # (Image References)
 
@@ -15,7 +16,7 @@
 
 ## Project Overview <a name="projectOverview"></a>
 
-Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+In this project, we will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, our algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
 ![Sample Output][image1]
 
@@ -23,15 +24,27 @@ Along with exploring state-of-the-art CNN models for classification, you will ma
 
 ## Library <a name="library"></a>
 
+opencv-python==3.2.0.6
+h5py==2.6.0
+matplotlib==2.0.0
+numpy==1.12.0
+scipy==0.18.1
+tqdm==4.11.2
+keras==2.0.2
+scikit-learn==0.18.1
+pillow==4.0.0
+ipykernel==4.6.1
+tensorflow==1.0.0
+
 
 ## Project Instructions
 
-### Instructions
+### Instructions <a name="instructions"></a>
 
 1. Clone the repository and navigate to the downloaded folder.
 ```	
-git clone https://github.com/udacity/dog-project.git
-cd dog-project
+git clone https://github.com/kaushalLimbachiyaa/Dog-Breed-Classificaiton-Using-Deep-Learning.git
+cd Dog-Breed-Classificaiton-Using-Deep-Learning
 ```
 
 2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`. 
@@ -114,9 +127,9 @@ jupyter notebook dog_app.ipynb
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
 
-## File Descriptions
+## File Descriptions <a name="files"></a>
 
 When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
 - The `dog_app.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
 
-Alternatively, your submission could consist of the GitHub link to your repository.
+## Results and Screenshots <a name="results"></a>
