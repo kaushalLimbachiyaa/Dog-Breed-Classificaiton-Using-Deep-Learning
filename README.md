@@ -24,6 +24,10 @@ Along with exploring state-of-the-art CNN models for classification, you will ma
 
 ## Library <a name="library"></a>
 
+Follwing are the nesesary libraries to run the code.
+
+
+
 opencv-python==3.2.0.6
 
 h5py==2.6.0
@@ -118,6 +122,7 @@ sudo python3 -m pip install -r requirements/requirements-gpu.txt
 		```
 	- __Windows__: 
 		```
+		
 		set KERAS_BACKEND=tensorflow
 		python -c "from keras import backend"
 		```
