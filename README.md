@@ -3,7 +3,7 @@
 1. [Project Overview](#projectOverview)
 2. [Libraries](#library)
 3. [Metrics](#metrics)
-4. [Instructions] (#instructions)
+4. [Instructions](#instructions)
 5. [File Descriptions](#files)
 6. [Results and Screenshots](#results)
 
@@ -16,7 +16,7 @@
 
 ## Project Overview <a name="projectOverview"></a>
 
-In this project, we will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, our algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+In this project, we will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, our algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  Here[Here](https://medium.com/@kaushal370/dog-breed-classification-using-deep-learning-9baf34f90f19) is the link to my blog.
 
 ![Sample Output][image1]
 
