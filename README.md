@@ -13,7 +13,7 @@
 [image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 [image4]: ./images/result1.png "results1"
-[image5]: ./images/result britt.png "results2"
+[image5]: ./images/resultbritt.png "results2"
 
 
 ## Project Overview <a name="projectOverview"></a>
